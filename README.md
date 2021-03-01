@@ -3,6 +3,7 @@ Technical test
 
 # Techstack
 * React Native
+* Expo-CLI
 * Context Hook
 
 #### The app flow:
