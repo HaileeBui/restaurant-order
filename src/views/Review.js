@@ -1,6 +1,6 @@
 import React from 'react';
 import { StyleSheet } from 'react-native';
-import { Container, View, Text, Header, Left } from 'native-base';
+import { Container, View, Text, Header, Body } from 'native-base';
 import { FlatList } from 'react-native-gesture-handler';
 import { FoodContext } from '../context/FoodContext';
 import { StatusBar } from 'react-native';
@@ -18,9 +18,9 @@ const Review = ({ navigation }) => {
   return (
     <Container>
       <Header style={{ backgroundColor: '#FD6A02', marginTop: 25 }}>
-        <Left>
-          <Text style={styles.text}>Your orders</Text>
-        </Left>
+        <Body>
+          <Text style={styles.text}>Thanks for your orders</Text>
+        </Body>
       </Header>
       <StatusBar barStyle="dark-content" hidden={false} backgroundColor="#FD6A02" translucent={true} />
       <View>
