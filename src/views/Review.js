@@ -26,7 +26,7 @@ const Review = ({ navigation }) => {
       <View>
         {orders.map(item => <ReviewListItem single={item.single} key={orders.indexOf(item)}>{item.single}</ReviewListItem>)}
         <CustomButton
-          title='Start again'
+          title='New order'
           style={{ marginTop: 10 }}
           onPress={() => {
             resetOrder();
