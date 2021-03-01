@@ -1,8 +1,10 @@
-import { Right, ListItem as BaseListItem, Left, Body, Text } from 'native-base';
 import React from 'react';
+import { Right, ListItem as BaseListItem, Left, Text } from 'native-base';
+
 import { StyleSheet } from 'react-native';
-import CustomButton from '../components/CustomButton';
 import { FoodContext } from '../context/FoodContext';
+
+import CustomButton from '../components/CustomButton';
 
 const ListItem = ({ single }) => {
   const {  addOrder } = React.useContext(FoodContext);
@@ -20,7 +22,7 @@ const ListItem = ({ single }) => {
       </Right>
     </BaseListItem>
   );
-}
+};
 
 
 export default ListItem;
