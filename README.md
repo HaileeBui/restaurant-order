@@ -1,7 +1,6 @@
-# restaurant-order
-Technical test
+## Technical test
 
-# Techstack
+#### Techstack
 * React Native
 * Expo-CLI
 * Context Hook
