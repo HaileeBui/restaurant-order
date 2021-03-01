@@ -1,4 +1,4 @@
-import React from 'react'
+import React from 'react';
 import { StatusBar } from 'react-native';
 import { FlatList } from 'react-native-gesture-handler';
 import { Container, View } from 'native-base';

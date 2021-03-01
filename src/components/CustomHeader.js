@@ -14,8 +14,8 @@ const CustomHeader = ({navigation}) => {
         ><Icon name='cart-outline' style={{ fontSize: 30 }} /></Button>
       </Right>
     </Header>
-  )
-}
+  );
+};
 
 export default CustomHeader;
 
@@ -24,5 +24,5 @@ const styles = StyleSheet.create({
     fontSize: 20,
     color: '#ffffff',
     fontWeight: 'bold'
-  }
-})
+  },
+});

@@ -11,10 +11,7 @@ import ReviewListItem from '../components/ReviewListItem';
 
 const Review = ({ navigation }) => {
   const { orders, resetOrder } = React.useContext(FoodContext);
-  React.useEffect(() =>{
-    orders;
-  }, []);
-  console.log(orders)
+
   return (
     <Container>
       <Header style={{ backgroundColor: '#FD6A02', marginTop: 25 }}>

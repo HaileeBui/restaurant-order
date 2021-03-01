@@ -16,6 +16,8 @@ const reducer = ((state, action) => {
 
 const FoodProvider = (props) => {
   let [state, dispatch] = useReducer(reducer,initialState);
+
+  //add item to list
   const addOrder = (item) => {
     dispatch({
       type: "ADD",
@@ -23,6 +25,7 @@ const FoodProvider = (props) => {
     })
   };
 
+  //reset list to empty array
   const resetOrder = () => {
     dispatch({
       type: "RESET",
